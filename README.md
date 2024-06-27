@@ -4,7 +4,59 @@ Demo application to interact with Azure AI by exploring Automated Machine Learni
 
 ## Getting Started
 
-Follow these steps to set up and run the application locally:
+### ✨ Option 1: Using the template
+
+Follow these steps to set up and run the application locally by cloning the repository.
+
+1. **Clone the repository:**
+
+   ```shell
+   git clone https://github.com/dileepadev/AzureAI-AutoML-Client-App.git
+   ```
+
+2. **Navigate to the project directory:**
+
+   ```shell
+    cd AzureAI-AutoML-Client-App
+    ```
+
+3. **Create and activate a virtual environment:**
+
+    ```python
+    ## Create virtual environment
+    python -m venv venv
+    ```
+
+    ```shell
+    ## Activate on Windows
+    venv\Scripts\activate.bat
+
+    ## Activate on macOS/Linux
+    source venv/bin/activate
+    ```
+
+4. **Install requirements:**
+
+    ```shell
+    pip install -r requirements.txt
+    ```
+
+5. **Create `.env` file to store the key**
+
+    ```.env
+    KEY=your_key
+    ENDPOINT=your_endpoint
+    ```
+
+6. **Run the application:**
+
+    ```shell
+    python app.py
+    ```
+
+### ✨ Option 2: Creating as a new project
+
+Follow these steps to set up and run the application locally from the beginning.
 
 1. **Setup project directory**
 
@@ -12,12 +64,6 @@ Follow these steps to set up and run the application locally:
 
    ```shell
    mkdir AzureAI-AutoML-Client-App
-   ```
-
-   or Clone repository:
-
-   ```shell
-   git clone https://github.com/dileepadev/AzureAI-AutoML-Client-App.git
    ```
 
 2. **Navigate to the project directory:**
